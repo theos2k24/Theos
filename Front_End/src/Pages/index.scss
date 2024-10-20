@@ -1,0 +1,202 @@
+@font-face {
+    font-family: MyCustom;
+    src: url("../Fonts/grinched/GrinchedRegular.otf");
+}
+@font-face {
+    font-family: MyCustom2;
+    src: url("../Fonts/nexa-rust/NexaRustSlab-BlackShadow01.otf");
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    // background-color: rgba(208,175,98,255);
+    background-color: white;
+    height: 17vh;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    border-bottom: 1px solid rgba(208,175,98,255);
+   
+
+
+    img {
+        height: 100px;
+        width: 100px;
+        margin-top: 5px;
+        margin-left: -90%;
+    }
+
+    #logo-first-name {
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: MyCustom2;
+        margin-left: 15px;
+        top: 35px;
+        // color:  rgba(209,179,98,255) ;
+        color: rgba(204, 177, 26, 0.699);
+    }
+
+    #logo-second-name {
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        left: 14%;
+        top: 60px;
+        color:  rgba(204, 177, 26, 0.699);
+        
+    }
+
+    #nav-bar {
+        margin-top: -70px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    ul {
+        display: flex;
+        margin-left: 600px;
+        gap: 50px;
+    }
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+    li:hover{
+        color:rgba(208,175,98,255) ;
+    }
+
+
+      
+       
+      
+      
+    #nav-bar-login-btn {
+        position: absolute;
+        top: 32px;
+        padding: 13px 40px;
+        border-radius: 10px;
+        left: 85%;
+        border: 1px solid rgba(208,175,98,255);
+        font-size:15px;
+        letter-spacing: 1px;
+        transition: 0.5s ease-in-out all;
+        cursor: pointer;
+
+       
+    }
+    #nav-bar-login-btn:hover{
+        background-color: rgba(208,175,98,255);
+    }
+
+    #phone-icon {
+        font-size: 25px;
+        position: absolute;
+        top: 40%;
+        left: 96%;
+        cursor: pointer;
+    }
+
+        .tooltip {
+            position: absolute;
+            top: 3%; /* Position below the icon */
+            left: 95%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: red;
+            padding: 5px 10px;
+            border-radius: 4px;
+            white-space: nowrap;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+
+        &:hover .tooltip,
+        &:focus-within .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+.view-content{
+    background-color: rgba(208,175,98,255);
+    width: 100%;
+    margin-top: 110px;
+    border-bottom-right-radius: 200px;
+   
+
+   
+    .fullscreen-video {
+        margin-top: 10px;
+        width: 55%;
+        margin-left: -35%;
+        border-radius: 20px;
+        border-bottom-right-radius: 200px;
+        height: 80vh;
+        object-fit: cover; 
+        justify-content: center;
+        
+    }
+    h1{
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        font-size: 30px;
+    }
+    #student-reg{
+        position: absolute;
+        padding: 10px 80px;
+         top: 45%;
+         left: 70%;
+         font-size: 25px;
+         letter-spacing: 2px;
+         border: none;
+    border-radius: 20px;
+    cursor: pointer;         
+
+    }
+    #student-reg:hover{
+        box-shadow: 0px 0px 10px black;
+    }
+    #student-reg:active{
+        transform: translateY(5px);
+    }
+    #or{
+        position: absolute;
+        top: 58%;
+        left: 78%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #staff-reg{
+        position: absolute;
+        padding: 10px 100px;
+         top: 70%;
+         cursor: pointer;
+         left: 70%;
+         font-size: 25px;
+         letter-spacing: 2px;
+         border: none;
+    border-radius: 20px; 
+    }
+
+    #staff-reg:hover{
+        box-shadow: 0px 0px 10px black;
+    }
+    #staff-reg:active{
+        transform: translateY(5px);
+    }
+    
+}
+

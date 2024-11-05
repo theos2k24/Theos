@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 export class Index extends Component {
   state = {
     showTooltip: false,
@@ -14,7 +15,7 @@ export class Index extends Component {
 
   componentDidMount() {
     document.title = "Welcome To Theos 😍";
-    AOS.init(); // Initialize AOS
+    AOS.init(); 
 
     window.addEventListener('focus', this.handleFocus);
     window.addEventListener('blur', this.handleBlur);
@@ -96,12 +97,32 @@ export class Index extends Component {
               </button>
             </div>
           </div>
+          <div data-aos="fade-down">
 
+          <h1 id='learn-title'> Learning Programs</h1>
+          </div>
           <div className='learn-pgm'>
+            
+         
+            <div className="parent">
+            <div data-aos="fade-right">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="parent">
             <div data-aos="fade-down">
-              <h1>Learning Programs</h1>
-            </div>
-            <div className="parent">
               <div className="card">
                 <div className="content-box">
                   <span className="card-title">Computer Science</span>
@@ -115,8 +136,10 @@ export class Index extends Component {
                   
                 </div>
               </div>
+              </div>
             </div>
             <div className="parent">
+            <div data-aos="fade-left">
               <div className="card">
                 <div className="content-box">
                   <span className="card-title">Computer Science</span>
@@ -130,8 +153,10 @@ export class Index extends Component {
                   
                 </div>
               </div>
+              </div>
             </div>
             <div className="parent">
+            <div data-aos="fade-right">
               <div className="card">
                 <div className="content-box">
                   <span className="card-title">Computer Science</span>
@@ -145,7 +170,95 @@ export class Index extends Component {
                   
                 </div>
               </div>
+              </div>
             </div>
+            <div className="parent">
+            <div data-aos="fade-up">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="parent">
+            <div data-aos="fade-left">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="parent">
+            <div data-aos="fade-right">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="parent">
+              <div data-aos="fade-down">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="parent">
+              <div data-aos="fade-up">
+              <div className="card">
+                <div className="content-box">
+                  <span className="card-title">Computer Science</span>
+                  <p className="card-content">
+                    Computer Engineering and it Infrastrucure
+                  </p>
+                  <span className="see-more">Explore</span>
+                </div>
+                <div className="date-box">
+                  <img src={Logo} alt='img'></img>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+            
+            
           </div>
           </div>
         </div>
